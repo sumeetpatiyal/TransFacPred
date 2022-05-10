@@ -44,7 +44,7 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         Output: File for saving results by default outfile.csv
   -t THRESHOLD, --threshold THRESHOLD
-                        Threshold: Value between 0 to 1 by default 0.1
+                        Threshold: Value between -0.5 to 1.5 by default -0.38
   -d {1,2}, --display {1,2}
                         Display: 1:Transcription Factors, 2: All Sequences, by default 1
 ```
@@ -53,5 +53,5 @@ optional arguments:
 
 **Output File:** Program will save the results in the CSV format, in case user do not provide output file name, it will be stored in "outfile.csv".
 
-**Threshold:** User should provide threshold between 0 and 1.
+**Threshold:** User should provide threshold between -0.5 and 1.5.
 
